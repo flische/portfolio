@@ -6,7 +6,7 @@
 		Title and Meta Tags
 		=============================================== -->
 		<meta charset="utf-8">
-		<title>Federico Lische | Front End Web Developer</title>
+		<title>Federico Lische | Front End Developer</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -25,12 +25,14 @@
 		<link rel="stylesheet" href="assets/css/flexslider.css">
 		<link rel="stylesheet" href="assets/css/font-awesome.css">
 		<link rel="stylesheet" href="assets/css/styles-5.css">
+		<link rel="stylesheet" href="assets/css/contact-form.css">
+
 		
 		<!-- ==============================================
 		Fonts
 		=============================================== -->
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,600,700' rel='stylesheet' type='text/css'>
-		
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,400italic,600,600italic' rel='stylesheet' type='text/css'>
 		
 		<!-- ==============================================
 		JS
@@ -45,75 +47,79 @@
 	</head>
   
 	<body data-spy="scroll" data-target="#main-nav" data-offset="400">
-	
+
 		<!--=== PAGE PRELOADER ===-->
 		<div id="page-loader"><span class="page-loader-gif"></span></div>
-		
+
 		<!-- ==============================================
 		MAIN NAV
 		=============================================== -->
+
 		<div id="main-nav" class="navbar navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>						
-				</div>
-
-				<div id="site-nav" class="navbar-collapse collapse">
-
-					<ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#about" class="scrollto">About Me</a>
-						</li>
-						<li>
-							<a href="#services" class="scrollto">Technical Skills</a>
-						</li>
-						<li>
-							<a href="#portfolio" class="scrollto">My Works</a>
-						</li>
-						<li>
-							<a href="#contact" class="scrollto">Contact Me</a>
-						</li>
-					</ul>
-				</div><!--End navbar-collapse -->
+				<div class="container">
 				
-			</div><!--End container -->
-			
-		</div><!--End main-nav -->
-		
+					<div class="navbar-header">
+					
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-nav">
+							<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+						</button>
+						
+						<!-- ======= LOGO (for small screens)========-->
+						<a class="navbar-brand visible-xs scrollto" href="#home">FL</a>
+						
+					</div>
+
+					<div id="site-nav" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="#home" class="scrollto">Home</a>
+							</li>
+							<li>
+								<a href="#about" class="scrollto">About Me</a>
+							</li>
+							<li>
+								<a href="#portfolio" class="scrollto">Portfolio</a>
+							</li>
+							<li>
+								<a href="#services" class="scrollto">Technical skills</a>
+							</li>
+							
+							<li>
+								<a href="#contact" class="scrollto">Contact Me</a>
+							</li>
+						</ul>
+					</div>	
+				</div>		
+			</div>
+	
 		<!-- ==============================================
 		HEADER
 		=============================================== -->
 		<header id="home">
 		
-			<div class="container">
+			<div class="container jumbotron bg-image">
 			
 				<div class="row">
 				
 					<div class="col-sm-10 col-sm-offset-1 text-center">
 					
-						<h1 class="scrollimation fade-down d1">I am Federico Lische</h1>
+						<h1 class="scrollimation fade-down d1">Federico Lische</h1>
 						<h2 class="scrollimation fade-down d3"><span class="main-color">F</span>ront <span class="main-color">E</span>nd <span class="main-color">D</span>eveloper</h2>
 					
 					</div>
 				
 				</div>
 			
-				<div class="header-img scrollimation fade-up d1">
+				<!-- <div class="header-img scrollimation fade-up d1">
 					<img class="img-responsive" src="assets/images/header-img.png" alt="" />
-				</div>
+				</div> -->
 			
 			</div>
 			
 		</header><!--End header -->
 
 		<div id="main-content">
-			
-			<div class="scroll-down">
-				<a href="#services" class="scrollto">Learn More</a>
-			</div>
-			
+		
 				<!-- ==============================================
 			ABOUT
 			=============================================== -->
@@ -128,16 +134,12 @@
 							<div class="col-sm-10 col-sm-offset-1 text-center">
 							
 								<figure class="hover-wrapper scrollimation fade-right">
-									<img class="img-responsive img-circle profile-img" src="assets/images/profile-img.jpg" alt="">
+									<img class="img-responsive img-circle profile-img" src="assets/images/profile-img2.jpeg" alt="">
 									<figcaption class="hover-text">That's Me!</figcaption>
 								</figure>
-								
-								<h2 class="scrollimation fade-left">Federico Lische</h2>
-								<h3 class="scrollimation fade-left">Front End Developer</h3>
 							
 								<p class="margin-top scrollimation fade-right">I am Jonathan Doe, a twenty five year old designer from NY. I have graduated with a Bachelor degree of Graphic & Web Design, from the University of Pasadena. I have a passion for creating challenging, intuitive and beautiful products. My design process is very hands-on and visual.</p>
 								
-								<p class="lead margin-top scrollimation fade-left">Creating is not just a job for me, it's a passion. </p>
 								<p class="scrollimation fade-left"><a class="btn btn-dc btn-main-color scrollto" href="#portfolio">My Portfolio</a></p>
 								
 							</div>
@@ -148,14 +150,53 @@
 				
 			</section>
 
-	
+			<section id="portfolio" class="big-padding gray-bg">
+			
+					<div class="container">
+						
+						<h1 class="section-title">My Portfolio<span class="main-color"></span></h1>
+					
+						<div class="row">
+						
+							<div class="scrollimation fade-right">
+							
+								<h2 class="row-title text-center"><span class="main-color">Concert Buddy</span></h2>
+								
+								<p class="text-center">Concert Buddy is a mobile web application that is dedicated to helping people plan trips in a fun and collaborative way.
+									Users can search for concerts, create a trip, invite friends and assign responsibilities.
+									This was a final project application built in 4 weeks with the help of three other members.</br>
+									Technologies used: HTML5, CSS3, JavaScript, ReactJS, Redux, PHP7, MySQL, Amazon Web Services (EC2).</p>
+								<p class="text-center on-hover"><a class="btn btn-dc btn-small btn-main-color" href="https://concertbuddy.app/" target="_blank">Visit Website</a></p>
+							</div>
+							
+							<div class="scrollimation fade-left"> 
+									<img class="img-responsive img-center" src="assets/images/chrome-navbar.png" alt="" />
+									<div class="scrollimation fade-up">
+											
+										
+											<div class="img-wrapper">
+								
+													<video controls autoplay muted loop>Sorry, your browser doesn't support embedded videos.
+														<source src="./assets/videos/concertbuddy.mp4" type="video/mp4">
+														<source src="./assets/videos/concertbuddy.mp4" type="video/ogg">
+													</video>
+																					
+											</div>
+									</div>	
+							</div>  
+						
+						</div>
+						
+					</div>
+					
+				</section>
 		<!--==============================================
 		SKILLS
 		=============================================== -->	
 		<section id="services" class="big-padding white-bg">		
 				<div class="container">				
 					<div class="text-center">							
-						<h1 class="section-title text-center scrollimation fade-in">I Got the Skills<span class="main-color"></span></h1>
+						<h1 class="section-title text-center scrollimation fade-in">Technical Skills<span class="main-color"></span></h1>
 						<div class="svgContainer">
 							<svg viewBox="0 0 150 150" height="100"width="25%">
 								<path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z"></path><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zm-46.885-37.793h-11.709l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"></path>
@@ -208,8 +249,7 @@
 				</div>			
 			</section>
 				
-	
-			<section id="cta1" class="bg-main-color cta">
+			<!-- <section id="cta1" class="bg-main-color cta">
 			
 				<div class="container text-center scrollimation fade-up">
 				
@@ -219,115 +259,81 @@
 				
 				</div>
 			
-			</section>
-				
-		
-			
-			<!-- ==============================================
-			SKILLS
-			=============================================== -->
-			<!-- <section id="skills" class="small-padding dark-bg">
-			
-				<div class="container">
-				
-					<div class="row skills">
-
-						<div class="col-sm-6 col-md-3 text-center">
-							<span class="chart plus-symbol" data-percent="90"><span class="percent">90</span></span>
-							<h2 class="text-center">Front End</h2>
-						</div>
-						<div class="col-sm-6 col-md-3 text-center">
-							<span class="chart plus-symbol" data-percent="80"><span class="percent">80</span></span>
-							<h2 class="text-center">Back End</h2>
-						</div>
-						<div class="col-sm-6 col-md-3 text-center">
-							<span class="chart equal-symbol" data-percent="95"><span class="percent">95</span></span>
-							<h2 class="text-center">Support</h2>
-						</div>
-						<div class="col-sm-6 col-md-3 text-center">
-							<span class="chart" data-percent="90"><span class="percent">90</span></span>
-							<h2 class="text-center main-color">High Score</h2>
-						</div>
-						
-					</div>End row -->
-					
-				<!-- </div>
-			
-			</section> 
+			</section> -->
 				
 			<!-- ==============================================
 			PORTFOLIO
 			=============================================== -->
-			<section id="portfolio" class="big-padding" >
+			<!-- <section id="portfolio" class="big-padding" >
 			
 				<div class="container">
 				
-					<h1 class="section-title">My Portfolio<span class="main-color"></span></h1>
-					<p class="subtitle">Projects</p>
-					
+					<h1 class="section-title">My Portfolio<span class="main-color"></span></h1>					
 					<!--==== Portfolio Filters ====-->
 					
-					<div class="text-center scrollimation fade-up">
+					<!-- <div class="text-center scrollimation fade-up">
 						<div id="filter-works" class="btn-group">
 							<button data-filter=".web" type="button" class="btn btn-default active">Featured Project<span class="project-count"></span></button>
-							<button data-filter="*" type="button" class="btn btn-default">All Projects<span class="project-count"></span></button>
+							<button data-filter=".print" type="button" class="btn btn-default">Other Projects<span class="project-count"></span></button>
 						</div>
 					</div>
 					
-				</div>	
-				
+				</div>	 -->
+					<!-- <div class="section-header text-center">
+						<h1 class="project-title">Concert Buddy</h1>
+						<p class="text-center">Concert Buddy is a mobile web application that is dedicated to helping people plan trips in a fun and collaborative way.<br/> 
+							Users can search for concerts, create a trip, invite friends and assign responsibilities.
+							This was a final project application built in 4 weeks with the help of 3 other members.<br/> 
+							Technologies used: JavaScript, ReactJS, Redux, PHP, MySQL. </p><br/>
+					</div> -->
+					
+						<!-- <img class="img-responsive img-center project-image" src="assets/images/projects/thumb-1.jpg"  alt=""> -->
+					<!-- <a class="project-item web" href="#?slider-project.html">
+						<div class="section-header text-center">
+							<h1 class="project-title">Concert Buddy</h1>
+							<p class="text-center">Concert Buddy is a mobile web application that is dedicated to helping people plan trips in a fun and collaborative way.<br/> 
+							Users can search for concerts, create a trip, invite friends and assign responsibilities.
+							This was a final project application built in 4 weeks with the help of 3 other members.<br/> 
+							Technologies used: JavaScript, ReactJS, Redux, PHP, MySQL. </p><br/>
+						</div>
+						<img class="img-responsive img-center project-image" src="assets/images/projects/thumb-1.jpg"  alt="">
+
+					</a>	
 				<div class="container scrollimation fade-up">
 			
-					<div id="projects-container" class="row">
+					<div id="projects-container" class="row"> -->
 					
 						<!-- ==============================================
 						SINGLE PROJECT ITEM
 						=============================================== -->
-						
-						<a class="project-item col-sm-6 col-md-4 col-lg-3 web" href="#?slider-project.html">
-							
-							<img class="img-responsive project-image" src="assets/images/projects/thumb-1.jpg"  alt="">
-							
-							<div class="hover-title">
-								<h2 class="project-title">Concert Buddy</h2><!--Project Title -->
-								<p>Concert Buddy is a mobile web application that is dedicated to helping people plan trips in a fun and collaborative way. 
-									Users can search for concerts, create a trip, invite friends and assign responsibilities.
-									This was my final project application idea and with the help of 3 other members, a small idea had come to life. 
-									Technologies used: JavaScript, ReactJS, Redux, PHP, MySQL</p><!--Project Subtitle -->
-							</div>
-							
-						</a>
-						
-						<a class="project-item col-sm-6 col-md-4 col-lg-3 print" href="#?vimeo-project.html">
+					
+						<!-- <a class="project-item col-sm-6 col-md-4 col-lg-3 print" href="#?vimeo-project.html">
 							
 							<img class="img-responsive project-image" src="assets/images/projects/thumb-5.jpg"  alt="">
 							
 							<div class="hover-title">
-								<h2 class="project-title">Video project</h2><!--Project Title -->
-								<p>Vimeo video</p><!--Project Subtitle -->
-							</div>
+								<h2 class="project-title">Student Grade Table</h2><!--Project Title -->
+								<!-- <p>Academic Content Management System for keeping track of students, grades and courses</p><!--Project Subtitle -->
+							<!-- </div> -->
 							
-						</a>
+						<!-- </a>
 						
-						<a class="project-item col-sm-6 col-md-4 col-lg-3 video" href="#?slider-project.html">
+						<a class="project-item col-sm-6 col-md-4 col-lg-3 print" href="#?slider-project.html">
 							
 							<img class="img-responsive project-image" src="assets/images/projects/thumb-9.jpg"  alt="">
 							
 							<div class="hover-title">
-								<h2 class="project-title">Project with Slider</h2><!--Project Title -->
-								<p>Professional Brand Identity</p><!--Project Subtitle -->
+								<h2 class="project-title">Checkers Game</h2>
+								<p> Hackathon web app built using JavaScript object-oriented-programming (OOP)</p>
 							</div>
 							
 						</a>
 						
 					</div>	
-					
-					<p class="lead text-center">Like what you see? Contact me to discuss about your project!</p>
-					<p class="text-center"><a class="btn btn-dc btn-main-color scrollto" href="#contact">Contact Me</a></p>
-					
-				</div>	
 				
-			</section>
+				</div>	 
+				
+			</section> -->
 			
 			<!-- ==============================================
 			CONTACT
@@ -342,20 +348,12 @@
 					
 						<div class="col-sm-6 col-md-5 scrollimation fade-right">
 						
-							<p class="lead">I am available for freelance. <br/>Can't wait for the next exciting project! Could it be yours?</p>
+							<p class="lead">I am currently available for work!</p></br>
 						
-							<p>
-								Federico Lische<br/>
-								Irvine, CA<br/>
-								(949) 751 - 7549 <br/>
+							<p> Location: Orange County, CA<br/>
+							</br>Phone: (949) 751 - 7549 <br/>
 							</p>
-						
-							<div class="social-links">
-								<a href="#"><i class="fa fa-fw fa-github"></i></a>
-								<a href="#"><i class="fa fa-fw fa-linkedin-square"></i></a>
-							</div>
-						
-							<p><a class="mail-styled" href="mailto:mail@example.com">flische.dev@gmail.com</a></p>
+					
 						
 						</div>
 					
@@ -379,12 +377,17 @@
 							
 							<div class="form-group">
 								<div class="controls">
-									<textarea id="contact-message" name="comments" class="form-control requiredField" rows="6" data-error-empty="is required"></textarea>
+									<textarea id="contact-message" name="comments" class="form-control requiredField" rows="2" data-error-empty="is required"></textarea>
 									<label class="control-label" for="contact-message">Message</label>
 								</div>
 							</div><!-- End textarea -->
 							
-							<button name="submit" type="submit" class="btn" data-error-message="Please fill the required fields" data-sending-message="Sending Message" data-ok-message="Your Message has been sent!">Send It</button>
+						
+							<div class="buttonSubmit">
+									<button name="submit" type="submit" class="btn btn-outline-primary btn-main-color" alt="send message" data-error-message="Please fill the required fields" data-sending-message="Sending Message" 
+									data-ok-message="Your Message has been sent!"><i class="fa fa-paper-plane"></i> Send Message </button>
+							</div>
+							
 							<input type="hidden" name="submitted" id="submitted" value="true" />
 							
 						</form><!-- End contact-form -->
@@ -424,8 +427,12 @@
 						
 						</div>
 					
-						
-						
+						<div class="social-links">
+								<a href="#"><i class="fa fa-fw fa-github" alt="GitHub"></i></a>
+								<a href="#"><i class="fa fa-fw fa-linkedin-square" alt="LinkedIn"></i></a>
+								<a href="#"><i class="fa fa-fw fa-file" alt="Resume"></i></a>
+						</div>
+
 					</div>
 				
 				</div>
