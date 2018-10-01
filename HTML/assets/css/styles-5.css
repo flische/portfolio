@@ -137,7 +137,7 @@ hr{
 
 .title-color{
 	color:rgba(44, 91, 92, 0.536);
-	font-weight: 800;
+	font-weight: 600;
 }
 
 .logo-color{
@@ -270,8 +270,8 @@ hr{
 
 #main-nav .container{
 	background: #fff;
-	padding-top:25px;
-	padding-bottom:25px;
+	padding-top:12px;
+	padding-bottom:12px;
 	-webkit-transition: padding .3s ease-out;
 	transition: padding .3s ease-out;
 }
@@ -350,7 +350,7 @@ hr{
 #site-nav .active a,
 #site-nav a:hover,
 #site-nav a:focus{
-	padding-top: 4px;
+	/* padding-top: 4px; */
 	padding-bottom:10px;
 	color:#509B9E !important;
 	background: none;
@@ -2510,7 +2510,15 @@ hr{
 	#main-footer .logo-link img{
 		margin:0 auto 15px;
 	}
-	
+}
+
+
+@media (min-width: 768px) {
+	.nav.navbar-nav.navbar-right {
+		padding: 10px !important;
+		float: right !important;
+		/* margin-right: 396px; */
+	}
 }
 
 
@@ -2521,6 +2529,8 @@ ul {
     justify-content: center !important;
     margin: 0 !important;
 }
+
+
 
 @media (min-width: 768px ) #site-nav ul{
 	background: #fff;
