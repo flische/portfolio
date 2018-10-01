@@ -17,8 +17,12 @@ body{
 	word-wrap: break-word;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h4,h5,h6{
 	color:rgb(7, 41, 65);
+}
+
+h3{
+	color:#509B9E !important;
 }
 
 #main-content{
@@ -132,13 +136,13 @@ hr{
 }
 
 .title-color{
-	color:rgba(68, 137, 139, 0.591);
+	color:rgba(44, 91, 92, 0.536);
 	font-weight: 800;
 }
 
 .logo-color{
-	color:rgba(13, 80, 131, 0.817) !important;
-	font-weight: 800;
+	color: rgba(7, 3, 88, 0.543) !important;
+	font-weight: 600;
 }
 
 .bg-main-color{
@@ -1238,7 +1242,7 @@ hr{
 }
 
 #contact .row{
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 #contact p{
@@ -1410,7 +1414,7 @@ hr{
 ---- Footer Styles  ----
 ------------------------*/
 #main-footer{
-	padding:40px 0;
+	padding:30px 0;
 	background: #fff;
 }
 
@@ -1453,7 +1457,7 @@ hr{
 	font-family: 'Play', sans-serif;
 	line-height:37px;
 	letter-spacing: .07em;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 #main-footer .social-links a{
@@ -2260,7 +2264,9 @@ hr{
 }
 
 @media (max-width:415px){
-	
+	p {
+		margin: 0px 10px 10px;
+	}
 	.big-padding{
 		padding:80px 0;
 	}
@@ -2271,7 +2277,8 @@ hr{
 	}
 	
 	.section-title{
-		margin-bottom: 30px;
+		margin-bottom: 5px;
+		margin-top: 15px;
 		font-size: 38px;
 		/* font-family: 'Chakra Petch', sans-serif; */
 		font-family: 'Play', sans-serif;
@@ -2492,7 +2499,7 @@ hr{
 	}
 	
 	#main-footer{
-		padding:30px 0 20px;
+		padding:0 0 20px;
 	}
 	
 	#main-footer .social-links{
