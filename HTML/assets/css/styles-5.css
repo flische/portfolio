@@ -7,7 +7,9 @@ html,body{
 }
 
 body{
-	font-family:'Source Sans Pro',Arial,sans-serif;
+	/* font-family:'Source Sans Pro',Arial,sans-serif; */
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	font-size: 16px;
 	color: #89949C;
 	letter-spacing: .01em;
@@ -16,7 +18,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-	color: #39444C;
+	color:rgb(7, 41, 65);
 }
 
 #main-content{
@@ -61,11 +63,13 @@ a:focus{
 }
 
 .section-title{
-	margin-bottom: 50px;
+	margin-bottom: 0;
 	margin-top: 0;
 	font-size: 62px;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	font-weight: 400;
-	color: #39444C;
+	color:rgb(7, 41, 65);
 	text-align: center;
 }
 
@@ -88,7 +92,7 @@ a:focus{
 
 .row-title{
 	color:#39444C;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 .push-down{
@@ -119,12 +123,22 @@ hr{
 ------ Colors ------
 --------------------*/
 
-.main-heading-color{
+/* .main-heading-color{
 	color: 
-}
+} */
 
 .main-color{
-	color:#509B9E !important;
+	color:rgba(5, 59, 99, 0.817) !important;
+}
+
+.title-color{
+	color:rgba(68, 137, 139, 0.591);
+	font-weight: 800;
+}
+
+.logo-color{
+	color:rgba(13, 80, 131, 0.817) !important;
+	font-weight: 800;
 }
 
 .bg-main-color{
@@ -138,7 +152,7 @@ hr{
 }
 
 .gray-bg{
-	background: #fbfbfc;
+	background: #fbfbfccb;
 }
 
 .white-bg{
@@ -270,11 +284,23 @@ hr{
 }
 
 .navbar > .container .navbar-brand{
-	padding: 10px 0 5px 15px;
+	padding: 0 0 5px 15px;
 }
 
 .navbar-brand{
 	position: relative;
+	font-size: 18px;
+	height: 55px;
+	/* line-height: 36px; */
+}
+
+.navbar-brand.visible-xs.scrollto{
+    margin: 0 auto;
+    line-height: normal;
+    margin-top: 0;
+    font-size: smaller;
+	top: 0;
+	padding: 0 0 5px 15px;
 }
 
 #main-nav.scrolled .navbar-brand:after{
@@ -339,6 +365,8 @@ hr{
 } */
 
 #site-nav ul li + li{
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	border-left:1px solid #b9c4cC;
 }
 
@@ -380,6 +408,7 @@ hr{
 
 #home h1{
 	/* margin:0; */
+	font-family: 'Crimson Text', serif;
 	margin-bottom: 10px;
 	font-size: 72px;
 	font-weight: 600;
@@ -388,6 +417,7 @@ hr{
 
 #home h2{
 	/* margin:0; */
+	font-family: 'Crimson Text', serif;
 	margin-bottom: 30px;
 	font-size: 32px;
 	font-weight: 600;
@@ -574,17 +604,24 @@ hr{
 }
 
 #about .profile{
+	margin: 0 auto 0;
 	font-size: 18px;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	color:#79848C;
 }
 
 #about .profile h2{
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	margin-top:30px;
 	margin-bottom: 5px;
 	color:rgba(7, 3, 88, 0.543);
 }
 
 #about .profile h3{
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	margin:0;
 	font-size: 21px;
 	color:#39444C;
@@ -828,6 +865,8 @@ hr{
 	bottom:50%;
 	margin:0 0 10px;
 	font-size: 21px;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	line-height:21px;
 	color:#fff;
 }
@@ -836,6 +875,8 @@ hr{
 	position: absolute;
 	display: block;
 	content: "";
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	width:25px;
 	height:2px;
 	bottom:-13px;
@@ -849,6 +890,7 @@ hr{
 	width:100%;
 	top:50%;
 	margin:10px 0 0;
+	font-family: 'Chakra Petch', sans-serif;
 	font-size: 16px;
 	line-height:21px;
 	font-style: italic;
@@ -1201,6 +1243,7 @@ hr{
 
 #contact p{
 	font-size: 18px;
+	font-family: 'Chakra Petch', sans-serif;
 	margin-bottom: 30px;
 }
 
@@ -1215,6 +1258,8 @@ hr{
 	padding: 0;
 	font-size: 38px;
 	font-weight: 400;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	color:#509B9E;
 	border-bottom: 2px solid;
 }
@@ -1269,6 +1314,8 @@ hr{
 	padding:10px 0;
 	margin-bottom: 40px;
 	font-size: 18px;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	height:auto;
 	background: none;
 	border:none;
@@ -1372,6 +1419,8 @@ hr{
 #main-footer a:hover,
 #main-footer a:focus{
 	color:#abb3ba;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	text-decoration: none;
 	-webkit-transition:color .2s ease-out;
 	transition:color .2s ease-out;
@@ -1383,6 +1432,8 @@ hr{
 
 #main-footer .footer-nav{
 	padding: 0;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	margin:0;
 	width: 100%;
 	text-align: center;
@@ -1398,6 +1449,8 @@ hr{
 	padding:10px;
 	font-size: 18px;
 	font-weight:900;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
 	line-height:37px;
 	letter-spacing: .07em;
 	text-transform: uppercase;
@@ -1697,6 +1750,8 @@ hr{
 	
 	#contact .mail-styled{
 		font-size: 28px;
+		/* font-family: 'Chakra Petch', sans-serif; */
+		font-family: 'Play', sans-serif;
 	}
 
 	#main-footer .footer-nav li{
@@ -1821,10 +1876,14 @@ hr{
 	
 	#home h1{
 		font-size: 42px;
+		/* font-family: 'Chakra Petch', sans-serif; */
+		font-family: 'Play', sans-serif;	
 	}
 
 	#home h2{
 		font-size: 24px;
+		/* font-family: 'Chakra Petch', sans-serif; */
+		font-family: 'Play', sans-serif;
 	}
 	
 	#home .header-img{
@@ -2214,6 +2273,8 @@ hr{
 	.section-title{
 		margin-bottom: 30px;
 		font-size: 38px;
+		/* font-family: 'Chakra Petch', sans-serif; */
+		font-family: 'Play', sans-serif;
 	}
 
 	.section-title span{

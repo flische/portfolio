@@ -33,7 +33,7 @@
 		=============================================== -->
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200,600,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,400italic,600,600italic' rel='stylesheet' type='text/css'>
-		
+		<link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,600|Crimson+Text:600|Play" rel="stylesheet">
 		<!-- ==============================================
 		JS
 		=============================================== -->
@@ -64,13 +64,17 @@
 							<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
 						
-						<!-- ======= LOGO (for small screens)========-->
-						<a class="navbar-brand visible-xs scrollto" href="#home">FL</a>
+						<!-- ======= LOGO ========-->
+						<a class="navbar-brand scrollto" href="#home"><img src="assets/images/logo.png" alt="logo"/></a>
+						<!-- <a class="navbar-brand visible-lg visible-md visible-sm scrollto" href="#home"><span class="logo-color">F</span>ront <span class="logo-color">E</span>nd <span class="logo-color">D</span>ev</a> -->
+						
+						<!-- ======= LOGO for small screens ========-->
+						<!-- <a class="navbar-brand visible-xs scrollto" href="#home"><span class="logo-color">F </span>ront</br><span class="logo-color">E </span>nd</br><span class="logo-color">D </span>ev</a> -->
 						
 					</div>
 
 					<div id="site-nav" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav navbar-right">
 							<li>
 								<a href="#home" class="scrollto">Home</a>
 							</li>
@@ -102,9 +106,10 @@
 				<div class="row">
 				
 					<div class="col-sm-10 col-sm-offset-1 text-center">
-						<
+						
 						<h1 class="scrollimation fade-down d1">Federico Lische</h1>
-						<h2 class="scrollimation fade-down d3"><span class="main-color">F</span>ront <span class="main-color">E</span>nd <span class="main-color">D</span>eveloper</h2>
+						<h2 class="scrollimation fade-down d3"><span class="logo-color">F</span><span class="title-color">ront</span><span class="logo-color"> E</span><span class="title-color">nd</span> <span class="logo-color">D</span><span class="title-color">eveloper</span></h2>
+					
 					
 					</div>
 				
@@ -123,29 +128,32 @@
 				<!-- ==============================================
 			ABOUT
 			=============================================== -->
-			<section id="about" class="big-padding">
+			<section id="about" class="big-padding  gray-bg">
 			
 					<div class="container">
 						
-						<h1 class="section-title">About Me<span class="main-color"></span></h1>
+						<h1 class="section-title"><span class="main-color">About Me</span></h1>
 					
 						<div class="row profile">
 						
 							<div class="col-sm-10 col-sm-offset-1 text-center">
-							
+
+								<p class="scrollimation fade-right">Hello! My name is Federico but my friends call me Fed for short.  </p>
+
 								<figure class="hover-wrapper scrollimation fade-right">
-									<img class="img-responsive img-circle profile-img" src="assets/images/profile-img2.jpeg" alt="">
+									<img class="img-responsive img-circle profile-img" src="assets/images/profile-img.png" alt="profile picture">
 									<figcaption class="hover-text">That's Me!</figcaption>
 								</figure>
-							
-								<p class="margin-top scrollimation fade-right">I am Jonathan Doe, a twenty five year old designer from NY. I have graduated with a Bachelor degree of Graphic & Web Design, from the University of Pasadena. I have a passion for creating challenging, intuitive and beautiful products. My design process is very hands-on and visual.</p>
-								
-								<p class="scrollimation fade-left"><a class="btn btn-dc btn-main-color scrollto" href="#portfolio">My Portfolio</a></p>
+								</br>
+								<div>
+									</br>
+									<p class="scrollimation fade-left"><a class="btn btn-dc btn-main-color scrollto" href="#portfolio">My Portfolio</a></p>
+								</div>							
 								
 							</div>
 							
 						</div>
-						
+			
 					</div>
 				
 			</section>
@@ -154,42 +162,48 @@
 			
 					<div class="container">
 						
-						<h1 class="section-title">My Portfolio<span class="main-color"></span></h1>
+						<h1 class="section-title scrollimation fade-down"><span class="main-color">Featured Projects</span></h1>
 					
 						<div class="row">
 						
 							<div class="scrollimation fade-right">
-							
-								<h2 class="row-title text-center"><span class="main-color">Concert Buddy</span></h2>
+								<!-- <h1 class="row-title text-center scrollimation fade-right">Featured Project</h1> -->
+								<h3 class="row-title text-center scrollimation fade-up"><span class="main-color">Concert Buddy</span></h3>
 								
 								<p class="text-center">Concert Buddy is a mobile web application that is dedicated to helping people plan trips in a fun and collaborative way.
-								</br>Users can search for concerts, create a trip, invite friends and assign responsibilities.
+								</br>Users can search for concerts, create a trip, invite friends and assign responsibilities.</br>
 									This was a final project application built in 4 weeks with the help of three other members.</br>
 									Technologies used: HTML5, CSS3, JavaScript, ReactJS, Redux, PHP7, MySQL, Amazon Web Services (EC2).</p>
 								<p class="text-center on-hover"><a class="btn btn-dc btn-small btn-main-color" href="https://concertbuddy.app/" target="_blank">Visit Website</a></p>
 								</br>
 							</div>
-							
+
 							<div class="scrollimation fade-left"> 
-									<img class="img-responsive img-center" src="assets/images/chrome-navbar.png" alt="" />
+									<!-- <img class="img-responsive img-center" src="assets/images/chrome-navbar.png" alt="" /><img class="img-responsive img-center" src="assets/images/chrome-navbar.png" alt="" /> -->
 									<div class="scrollimation fade-up">
-											
-										
 											<div class="img-wrapper">
-								
 													<video controls autoplay muted loop>Sorry, your browser doesn't support embedded videos.
 														<source src="./assets/videos/concertbuddy.mp4" type="video/mp4">
 														<source src="./assets/videos/concertbuddy.mp4" type="video/ogg">
-													</video>
-																					
+													</video>								
 											</div>
 									</div>	
 							</div>  
 						
+							<hr>
+
+						</div>
+						<div class="row">
+						
+							<div class="scrollimation fade-left">
+								
+								<h3 class="section-title text-center scrollimation fade-up"><span class="main-color">More Works Coming Soon!</span></h3>
+									
+							</div>
+							<hr>
 						</div>
 						
 					</div>
-					
 				</section>
 		<!--==============================================
 		SKILLS
@@ -197,8 +211,8 @@
 		<section id="services" class="big-padding white-bg">		
 				<div class="container">				
 					<div class="text-center">							
-						<h1 class="section-title text-center scrollimation fade-in">Technical Skills<span class="main-color"></span></h1>
-						<div class="svgContainer">
+						<h1 class="section-title text-center scrollimation fade-down fade-in"><span class="main-color">Technical Skills</span></h1>
+						<div class="svgContainer margin-top">
 							<svg viewBox="0 0 150 150" height="100"width="25%">
 								<path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185h-125.184z"></path><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zm-46.885-37.793h-11.709l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"></path>
 							</svg>
@@ -250,17 +264,6 @@
 				</div>			
 			</section>
 				
-			<!-- <section id="cta1" class="bg-main-color cta">
-			
-				<div class="container text-center scrollimation fade-up">
-				
-					<p>It's not about ideas. It's about making ideas happen.</p>
-					
-					<a class="btn btn-dc btn-white scrollto" href="#contact">Contact Me</a>
-				
-				</div>
-			
-			</section> -->
 				
 			<!-- ==============================================
 			PORTFOLIO
@@ -279,27 +282,6 @@
 						</div>
 					</div>
 					
-				</div>	 -->
-					<!-- <div class="section-header text-center">
-						<h1 class="project-title">Concert Buddy</h1>
-						<p class="text-center">Concert Buddy is a mobile web application that is dedicated to helping people plan trips in a fun and collaborative way.<br/> 
-							Users can search for concerts, create a trip, invite friends and assign responsibilities.
-							This was a final project application built in 4 weeks with the help of 3 other members.<br/> 
-							Technologies used: JavaScript, ReactJS, Redux, PHP, MySQL. </p><br/>
-					</div> -->
-					
-						<!-- <img class="img-responsive img-center project-image" src="assets/images/projects/thumb-1.jpg"  alt=""> -->
-					<!-- <a class="project-item web" href="#?slider-project.html">
-						<div class="section-header text-center">
-							<h1 class="project-title">Concert Buddy</h1>
-							<p class="text-center">Concert Buddy is a mobile web application that is dedicated to helping people plan trips in a fun and collaborative way.<br/> 
-							Users can search for concerts, create a trip, invite friends and assign responsibilities.
-							This was a final project application built in 4 weeks with the help of 3 other members.<br/> 
-							Technologies used: JavaScript, ReactJS, Redux, PHP, MySQL. </p><br/>
-						</div>
-						<img class="img-responsive img-center project-image" src="assets/images/projects/thumb-1.jpg"  alt="">
-
-					</a>	
 				<div class="container scrollimation fade-up">
 			
 					<div id="projects-container" class="row"> -->
@@ -351,8 +333,10 @@
 						
 							<p class="lead">I am currently available for work!</p></br>
 						
-							<p> Location: Orange County, CA<br/>
-							</br>Phone: (949) 751 - 7549 <br/>
+							<p><br/><br/>Email: flische.dev@gmail.com<br/>
+							</br>Phone: 949.751.7549 <br/>
+							</br>Location: Orange County, CA
+							
 							</p>
 					
 						
@@ -413,7 +397,7 @@
 							
 						</div>
 					
-						<div class="col-sm-8">
+						<!-- <div class="col-sm-8">
 						
 							<nav>
 							
@@ -426,12 +410,12 @@
 							
 							</nav>
 						
-						</div>
+						</div> -->
 					
 						<div class="social-links">
-								<a href="#"><i class="fa fa-fw fa-github" alt="GitHub"></i></a>
-								<a href="#"><i class="fa fa-fw fa-linkedin-square" alt="LinkedIn"></i></a>
-								<a href="#"><i class="fa fa-fw fa-file" alt="Resume"></i></a>
+								<a href="https://www.github.com/flische" target="_blank">Github: <i class="fa fa-fw fa-github" alt="GitHub"></i></a>
+								<a href="https://www.linkedin.com/in/flische" target="_blank">LinkedIn: <i class="fa fa-fw fa-linkedin-square" alt="LinkedIn"></i></a>
+								<a href="https://docs.google.com/document/d/14Pd-6cGg5WqUzNPa2zEBrQuu8WOpFOY3tm9gqfFtJ5w/edit?usp=sharing">Resume <i class="fa fa-fw fa-file" alt="Resume"></i></a>
 						</div>
 
 					</div>
