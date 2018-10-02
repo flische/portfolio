@@ -1,7 +1,7 @@
 <?php
 // Require connection information and PHPMailer 1
 require_once('email_config.php');
-require('php_mailer/PHPMailer/PHPMailerAutoload.php');
+require('phpmailer/PHPMailer/PHPMailerAutoload.php');
 
 // // Validate POST inputs
 $message = [];  // <-- where we store the SANITIZED DATA
