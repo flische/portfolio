@@ -23,6 +23,7 @@ h1,h2,h4,h5,h6{
 
 h3{
 	color:#509B9E !important;
+	margin-bottom: 15px;
 }
 
 #main-content{
@@ -339,8 +340,8 @@ hr{
 	padding:7px 30px;
 	min-width:120px;
 	font-size: 16px;
-	font-weight: 6400;
-	color:#89949C;
+	font-weight: 400;
+	color:#509B9E;
 	text-align: center;
 	background: none;
 	-webkit-transition: color .2s ease-out, padding .3s ease-out;
@@ -352,8 +353,9 @@ hr{
 #site-nav a:focus{
 	/* padding-top: 4px; */
 	padding-bottom:10px;
-	color:#509B9E !important;
+	color:rgb(7, 41, 65) !important;
 	background: none;
+	font-weight: 800;
 }
 #site-nav a .fa{
 	display: block;
@@ -602,9 +604,11 @@ hr{
 } */
 
 .profile-img{
-	max-width:280px;
+	max-width:320px;
 	margin:0 auto 0;
 	border:15px solid #fff;
+	border-radius: 40px;
+	/* border-style: groove; */
 }
 
 #about .profile{
@@ -1242,7 +1246,8 @@ hr{
 }
 
 #contact .row{
-	margin-top: 80px;
+	margin-top: 40px;
+	/* text-align: center; */
 }
 
 #contact p{
@@ -1422,7 +1427,7 @@ hr{
 #main-footer a,
 #main-footer a:hover,
 #main-footer a:focus{
-	color:#abb3ba;
+	color:#509B9E;
 	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: 'Play', sans-serif;
 	text-decoration: none;
@@ -1431,7 +1436,7 @@ hr{
 }
 
 #main-footer a:hover{
-	color:#509B9E;
+	color:rgb(7, 41, 65);
 }
 
 #main-footer .footer-nav{
@@ -1461,7 +1466,7 @@ hr{
 }
 
 #main-footer .social-links a{
-	padding:10px 3px;
+	padding:10px 5px;
 }
 
 #main-footer .logo-link{
@@ -2302,6 +2307,12 @@ hr{
 	.lead{
 		margin-bottom: 30px;
 		font-size: 24px;
+	}
+
+	#contact .lead {
+		font-size: 21px;
+		font-weight: 400;
+		margin-bottom: -80px;
 	}
 	
 	.btn-dc{
