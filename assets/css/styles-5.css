@@ -114,7 +114,7 @@ a:focus{
 
 hr{
 	border-color:#b9c4cC;
-	margin:80px 0 80px;
+	margin:40px 0 40px;
 }
 
 .flexslider{
@@ -138,8 +138,9 @@ hr{
 
 .title-color{
 	color:rgba(44, 91, 92, 0.536);
-	font-weight: 600;
+	font-weight: 800;
 }
+ 
 
 .logo-color{
 	color: rgba(7, 3, 88, 0.543) !important;
@@ -156,8 +157,11 @@ hr{
 	color:#a9b4bC;
 }
 
-.gray-bg{
-	background: #fbfbfccb;
+.projects-bg{
+	background: #ECE9E6;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .white-bg{
@@ -597,16 +601,16 @@ hr{
 ---- About Styles ----
 -----------------------*/
 
-/* #about{
-	background:url(../images/about.jpg) no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-} */
+#about{
+	background: #C9D6FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
 .profile-img{
 	max-width:320px;
 	margin:0 auto 0;
-	border:15px solid #fff;
+	/* border:15px solid #fff; */
 	border-radius: 40px;
 	/* border-style: groove; */
 }
@@ -614,13 +618,11 @@ hr{
 #about .profile{
 	margin: 0 auto 0;
 	font-size: 18px;
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: 'Play', sans-serif;
 	color:#79848C;
 }
 
 #about .profile h2{
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: 'Play', sans-serif;
 	margin-top:30px;
 	margin-bottom: 5px;
@@ -686,9 +688,12 @@ hr{
 ---- Skills Styles ----
 -----------------------*/
 #skills{
-	/* background-image: url('../images/bars-bg.png'); */
-	background-repeat: no-repeat;
-	background-position: bottom center;
+	background: #C9D6FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* background: #8e9eab;  /* fallback for old browsers */
+	/* background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  Chrome 10-25, Safari 5.1-6 */
+	/* background: linear-gradient(to right, #eef2f3, #8e9eab); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .chart{
@@ -1020,204 +1025,6 @@ hr{
 	margin-left:80px;
 }
 
-/*---------------------
----- Testimonials  ----
------------------------*/
-
-#testimonials-slider{
-	position: relative;
-	margin-bottom: 30px;
-}
-
-#testimonials-slider.flexslider .slides img {width: auto;}
-
-#testimonials-slider li{
-	opacity: 0;
-	-webkit-transition:opacity .3s ease-out;
-	transition:opacity .3s ease-out;
-}
-
-#testimonials-slider li.flex-active-slide{
-	opacity: 1;
-	-webkit-transition:opacity .6s ease-out .6s;
-	transition:opacity .6s ease-out .6s;
-}
-
-#testimonials .media-body,
-#testimonials .media-left img{
-	-webkit-transform: translateX(-50px);
-	transform: translateX(-50px);
-	-webkit-transition: -webkit-transform .6s ease-out 0s;
-	transition: transform .6s ease-out 0s;
-}
-
-#testimonials .media-left + .media-body,
-#testimonials .media-right img{
-	-webkit-transform: translateX(50px);
-	transform: translateX(50px);
-	-webkit-transition: -webkit-transform .6s ease-out 0s;
-	transition: transform .6s ease-out 0s;
-}
-
-#testimonials-slider li.flex-active-slide .media-body,
-#testimonials-slider li.flex-active-slide .media-left + .media-body,
-#testimonials-slider li.flex-active-slide .media-left img,
-#testimonials-slider li.flex-active-slide .media-right img{
-	-webkit-transform: translateX(0);
-	transform: translateX(0);
-	-webkit-transition: -webkit-transform .6s ease-out .4s;
-	transition: transform .6s ease-out .4s;
-}
-
-.touch #testimonials .media-body,
-.touch #testimonials .media-left img,
-.touch #testimonials .media-left + .media-body,
-.touch #testimonials .media-right img{
-	-webkit-transform: translateX(0) !important;
-	transform: translateX(0) !important;
-}
-
-.testimonial-controls{
-	margin:-10px 0 20px;
-	text-align: center;
-}
-
-.testimonial-controls span{
-	display: inline-block;
-	width:45px;
-	height:45px;
-	border:2px solid;
-	border-radius:50%;
-	font-size: 38px;
-	line-height: 38px;
-	text-align: left;
-	margin:0 5px;
-	cursor:pointer;
-	-webkit-transition: color .2s ease-out;
-	transition: color .2s ease-out;
-}
-
-.testimonial-controls .previous{
-	padding-left:12px; 
-}
-
-.testimonial-controls .next{
-	padding-left:15px; 
-}
-
-.testimonial-controls span:hover{
-	color:#509B9E;
-}
-
-#testimonials .media{
-	margin:0 0 100px;
-	padding:10px 0;
-}
-
-#testimonials .media:last-child{
-	margin-bottom: 0;
-}
-
-#testimonials .media-left img{
-	margin-right:40px;
-	max-width:180px;
-}
-
-#testimonials .media-right img{
-	margin-left: 40px;
-	max-width:180px;
-}
-
-#testimonials .media-body{
-	position: relative;
-	padding:30px 60px 40px;
-	background: #fff;
-	border:2px solid #e9ecf0;
-	border-radius: 5px;
-}
-
-#testimonials .media-body:before{
-	display: block;
-	position: absolute;
-	content:"";
-	width:0;
-	height:0;
-	top:60px;
-	right:-36px;
-	border:14px solid transparent;
-	border-left:20px solid #e9ecf0;
-}
-
-#testimonials .media-body:after{
-	display: block;
-	position: absolute;
-	content:"";
-	width:0;
-	height:0;
-	top:60px;
-	right:-33px;
-	border:14px solid transparent;
-	border-left:20px solid #fff;
-}
-
-#testimonials .media-left + .media-body:before{
-	display: block;
-	position: absolute;
-	content:"";
-	width:0;
-	height:0;
-	top:60px;
-	left:-36px;
-	border:14px solid transparent;
-	border-right:20px solid #e9ecf0;
-}
-
-#testimonials .media-left + .media-body:after{
-	display: block;
-	position: absolute;
-	content:"";
-	width:0;
-	height:0;
-	top:60px;
-	left:-33px;
-	border:14px solid transparent;
-	border-right:20px solid #fff;
-}
-
-#testimonials .testimonial{
-	font-size: 18px;
-}
-
-#testimonials .testimonial:before{
-	margin-left: -13px;
-	margin-right: 3px;
-	font-size: 24px;
-	content: "\201C";
-}
-
-#testimonials .testimonial:after{
-	margin-left: 3px;
-	font-size: 24px;
-	content: "\201D";
-}
-
-#testimonials .client{
-	margin-bottom: 0;
-	font-style: italic;
-	text-align:right;
-}
-
-.client-logo{
-	margin:30px 0;
-	opacity: .5;
-	-webkit-transition: opacity .2s ease-out;
-	transition: opacity .2s ease-out;
-}
-
-.client-logo:hover{
-	opacity: 1;
-}
-
 /*-----------------------
 ---- Contact Styles  ----
 -------------------------*/
@@ -1235,7 +1042,11 @@ hr{
 	height:100%;
 	top:0;
 	left:0;
-	background: #07141f;
+	background: #536976;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
 	opacity:.9;
 	z-index: 1;
 }
@@ -1936,9 +1747,9 @@ hr{
 		margin-bottom: 50px;
 	}
 	
-	#skills{
+	/* #skills{
 		background-image: none;
-	}
+	} */
 	
 	#twitter-feeds .tweet{
 		font-size: 21px;
@@ -2180,9 +1991,9 @@ hr{
 		margin-bottom: 50px;
 	}
 	
-	#skills{
+	/* #skills{
 		background-image: none;
-	}
+	} */
 	
 	#twitter-feeds .tweet{
 		font-size: 21px;
@@ -2273,7 +2084,7 @@ hr{
 		margin: 0px 10px 10px;
 	}
 	.big-padding{
-		padding:80px 0;
+		padding:60px 0;
 	}
 	
 	.push-down{
@@ -2436,9 +2247,9 @@ hr{
 		margin-bottom: 50px;
 	}
 	
-	#skills{
+	/* #skills{
 		background-image: none;
-	}
+	} */
 	
 	#twitter-feeds .tweet{
 		font-size: 21px;
