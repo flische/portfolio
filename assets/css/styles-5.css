@@ -199,10 +199,11 @@ hr{
 
 .btn-dc:after{
 	position: absolute;
-	margin-left:10px;
+	/* margin-left:10px; */
 	/* content:"\f061"; */
 	font-family: fontAwesome;
 	opacity:0;
+	color: #509B9E;
 	/* -webkit-transition:all .2s ease-out .0s;
 	transition:all .2s ease-out .0s; */
 }
@@ -219,11 +220,13 @@ hr{
 .btn-dc:hover:after{
 	/* margin-left:30px; */
 	opacity:1;
+	color: #509B9E;
 }
 
 .btn-dc.btn-small:hover:after{
 	/* margin-left:15px; */
 	opacity:1;
+	color: #509B9E;
 }
 
 .btn-white,
@@ -1634,15 +1637,17 @@ hr{
 	}
 	
 	.btn-dc:hover{
-		padding-right:50px;
+		/* padding-right:50px; */
 	}
 	
 	.btn-dc:after{
-		margin-left:5px;
+		/* margin-left:5px; */
+		color: #509B9E;
 	}
 	
 	.btn-dc:hover:after{
-		margin-left:15px;
+		/* margin-left:15px; */
+		color: #509B9E;
 	}
 	
 	.icon-bar{
@@ -1879,20 +1884,22 @@ hr{
 	}
 	
 	.btn-dc{
-		padding:8px 40px;
+		padding:8px 25px;
 		font-size:18px;
 	}
 	
 	.btn-dc:hover{
-		padding-right:50px;
+		/* padding-right:50px; */
 	}
 	
 	.btn-dc:after{
-		margin-left:5px;
+		/* margin-left:5px; */
+		color: #509B9E;
 	}
 	
 	.btn-dc:hover:after{
-		margin-left:15px;
+		/* margin-left:15px; */
+		color: #509B9E;
 	}
 	
 	.icon-bar{
@@ -2144,10 +2151,12 @@ hr{
 	
 	.btn-dc:after{
 		/* margin-left:5px; */
+		color: #509B9E;
 	}
 	
 	.btn-dc:hover:after{
 		/* margin-left:15px; */
+		color: #509B9E;
 	}
 	
 	.icon-bar{
