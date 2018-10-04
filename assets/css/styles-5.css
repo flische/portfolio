@@ -452,6 +452,11 @@ hr{
 	z-index: -1;
 }
 
+.column-in-center{
+    float: none;
+    margin: 0 auto;
+}
+
 .scroll-down{
 	margin-bottom: -60px;
 	text-align: center;
@@ -618,11 +623,9 @@ hr{
 }
 
 .profile-img{
-	max-width:320px;
+	max-width:280px;
 	margin:0 auto 0;
-	/* border:15px solid #fff; */
-	border-radius: 40px;
-	/* border-style: groove; */
+	border-radius: 30px;
 }
 
 #about .profile{
@@ -2368,15 +2371,12 @@ ul {
     margin: 0 !important;
 }
 
-
-
 @media (min-width: 768px ) #site-nav ul{
 	background: #fff;
 	width: 100%;
 	display:flex;
 	justify-content: center;
 } */
-
 
 /* #site-nav.navbar-collapse.collapse ul.nav.navbar-nav {
 	justify-content: center;
