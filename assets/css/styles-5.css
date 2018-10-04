@@ -302,11 +302,11 @@ hr{
 }
 
 .navbar > .container .navbar-brand{
-	padding: 0 0 5px 15px;
+	padding: 8px 5px 10px 15px;
 }
 
 .navbar-brand{
-	position: relative;
+	position: absolute;
 	font-size: 18px;
 	height: 55px;
 	/* line-height: 36px; */
@@ -1668,7 +1668,7 @@ hr{
 	}
 	
 	.navbar > .container .navbar-brand{
-		padding: 5px 0 5px 15px;
+		padding: 15px 0 5px 15px;
 	}
 	
 	#main-nav .navbar-brand:after{
@@ -1920,7 +1920,7 @@ hr{
 	}
 	
 	.navbar > .container .navbar-brand{
-		padding: 5px 0 5px 15px;
+		padding: 12px 0 5px 15px;
 	}
 	
 	#main-nav .navbar-brand:after{
@@ -2177,7 +2177,7 @@ hr{
 	}
 	
 	.navbar > .container .navbar-brand{
-		padding: 5px 0 5px 15px;
+		padding: 15px 0 5px 15px;
 	}
 	
 	#main-nav .navbar-brand:after{
@@ -2356,7 +2356,7 @@ hr{
 
 @media (min-width: 768px) {
 	.nav.navbar-nav.navbar-right {
-		padding: 10px !important;
+		padding: 10px 0 !important;
 		float: right !important;
 		/* margin-right: 396px; */
 	}
