@@ -137,7 +137,7 @@ hr{
 }
 
 .title-color{
-	color:rgba(44, 91, 92, 0.536);
+	color:rgba(60, 85, 85, 0.721);
 	font-weight: 800;
 }
  
@@ -765,8 +765,9 @@ hr{
     height: 50vh;
 }
 .scrollimation .img-wrapper {
-    max-width: none !important;
+	max-width: none !important;
 }
+
 
 /*-----------------------
 --- Portfolio Styles  ---
