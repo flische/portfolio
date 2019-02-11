@@ -768,6 +768,9 @@ hr{
 	max-width: none !important;
 }
 
+#drone, #concert, #sgt {
+	color: darkblue;
+}
 
 /*-----------------------
 --- Portfolio Styles  ---
