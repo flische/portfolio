@@ -158,9 +158,9 @@ hr{
 }
 
 .projects-bg{
-	background: lightgray;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, rgb(224, 228, 228), lightgrey); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, rgb(224, 228, 228), lightgrey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: whitesmoke;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, white, whitesmoke); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, white, whitesmoke); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .white-bg{
@@ -376,14 +376,8 @@ hr{
 	text-align: center;
 }
 
-/* #site-nav ul{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-} */
 
 #site-nav ul li + li{
-	/* font-family: 'Chakra Petch', sans-serif; */
 	font-family: 'Play', sans-serif;
 	border-left:1px solid #b9c4cC;
 }
@@ -395,13 +389,8 @@ hr{
 #home{
 	position: relative;
 	height:100%;
-	/* top: 10%; */
 	min-height:860px;
 	margin-bottom:-64px;
-	/* background: url('../images/about.jpg') no-repeat;
-	background-attachment: fixed;
-	background-size: 100%;
-	background-size: center; */
 	overflow: hidden;
 }
 
@@ -617,8 +606,8 @@ hr{
 
 #about{
 	background: #C9D6FF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to right, rgba(226, 226, 226, 0.892), #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right,rgba(226, 226, 226, 0.892), #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .profile-img{
@@ -631,7 +620,7 @@ hr{
 	margin: 0 auto 0;
 	font-size: 18px;
 	font-family: 'Play', sans-serif;
-	color:#79848C;
+	color:rgb(109, 114, 117);
 }
 
 #about .profile h2{
@@ -700,12 +689,9 @@ hr{
 ---- Skills Styles ----
 -----------------------*/
 #skills{
-	background: #C9D6FF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	/* background: #8e9eab;  /* fallback for old browsers */
-	/* background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  Chrome 10-25, Safari 5.1-6 */
-	/* background: linear-gradient(to right, #eef2f3, #8e9eab); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+	background: #8e9eab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgba(226, 226, 226, 0.892), #C9D6FF); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgba(226, 226, 226, 0.892), #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
 }
 
 .chart{
