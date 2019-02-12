@@ -158,10 +158,9 @@ hr{
 }
 
 .projects-bg{
-	background: #ECE9E6;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: lightgray;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, rgb(224, 228, 228), lightgrey); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, rgb(224, 228, 228), lightgrey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .white-bg{
@@ -810,7 +809,7 @@ hr{
 
 #projects-container {
 	margin: 0 0 80px;
-	background:#fff;
+	background: lightgrey;
 	-webkit-transition: none;
 	transition: none;
 }
