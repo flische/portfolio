@@ -1033,7 +1033,7 @@ hr{
 
 #contact{
 	position: relative;
-	background: lightgray;
+	background: rgb(238, 233, 233);
 }
 
 .color-overlay:before{
@@ -1117,7 +1117,7 @@ hr{
 	font-size:18px;
 	line-height:24px;
 	font-weight:400;
-	color:#88949C;
+	color:rgb(179, 180, 181);
 	z-index: -1;
 	-webkit-transition: all .25s ease-out;
 	transition: all .25s ease-out;
@@ -1449,6 +1449,62 @@ hr{
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
 }
+
+#contact {
+	padding: 50px 0 50px 0;
+}
+
+#contact p {
+    font-size: 24px;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#contact-link {
+	margin: 0px 15px 0px 15px;
+	font-size: 28px;
+}
+
+#contact-link-icon {
+    font-size: 54px;
+    margin: 28px;
+}
+
+#contact a,
+#contact a:hover,
+#contact a:focus{
+	color:#509B9E !important;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif !important;
+	text-decoration: none !important;
+	-webkit-transition:color .2s ease-out !important;
+	transition:color .2s ease-out !important;
+}
+
+#contact a:hover{
+	color:rgb(7, 41, 65) !important;
+}
+
+#contact a{
+	padding:10px;
+	font-size: 18px;
+	font-weight:900;
+	/* font-family: 'Chakra Petch', sans-serif; */
+	font-family: 'Play', sans-serif;
+	line-height:37px;
+	letter-spacing: .07em;
+	/* text-transform: uppercase; */
+}
+
+#contact .social-links a{
+	padding:10px 5px;
+}
+
+#contact #contact-link-icon{
+	padding: 0;
+}
+
 /*----------------------
 ---- Media Queries  ----
 ------------------------*/
@@ -2087,7 +2143,8 @@ hr{
 
 @media (max-width:415px){
 	p {
-		margin: 0px 10px 10px;
+		margin: 0px 20px 10px 20px;
+		word-break: break-word;
 	}
 	.big-padding{
 		padding:60px 0;
@@ -2130,6 +2187,18 @@ hr{
 		font-size: 21px;
 		font-weight: 400;
 		margin-bottom: -80px;
+	}
+
+	#contact p {
+		font-size: 18px;
+		font-family: 'Play', sans-serif;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	#contact-link-icon {
+		font-size: 28px;
+		margin: 18px;
 	}
 	
 	.btn-dc{
@@ -2349,6 +2418,10 @@ hr{
 		float: right !important;
 		/* margin-right: 396px; */
 	}
+}
+
+@media (max-width) {
+
 }
 
 
