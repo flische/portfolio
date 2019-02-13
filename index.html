@@ -305,67 +305,72 @@
 				
 			<!-- ==============================================
 			CONTACT
-			=============================================== -->
-			<section id="contact" class="big-padding light-typo color-overlay">
+			=============================================== --> 
+			<section id="contact" class="light-typo color-overlay">
 			
 				<div class="container">
 				
 					<h1 class="section-title scrollimation fade-down">Contact Me<span class="main-color"></span></h1>
 					
 					<div class="row">
-						<div class="lead scrollimation fade-right">
-							<p class="text-center">I am currently available for work! <br/><br/>Feel free to contact me directly or just drop me a line below!</p>
+						<div class="lead scrollimation fade-right" id="contact-p">
+							<p class="text-center">I am currently available for work! <br/><br/>Feel free to contact me directly via one of the options below:</p>
+							<div class="text-center social-links"><br/>
+								<a id="contact-link" href="mailto:flische.dev@gmail.com" target="_blank"><i id="contact-link-icon" class="fa fa-envelope"> </i> </a>
+								<a id="contact-link" href="tel://+194975175149" target="_blank"><i id="contact-link-icon" class="fa fa-phone" alt="phone"> </i> </a>
+								<a id="contact-link" href="https://www.linkedin.com/in/flische" target="_blank"><i id="contact-link-icon" class="fa fa-fw fa-linkedin-square" alt="LinkedIn"> </i> </a>								
+								<br/><br/>
+							</br>
+							</div>
 						</div>
-						
+						<p>Location:  Orange County, CA</p>
 					</div>
 					<div class="row">
 					
 						<div class="col-sm-6 col-md-5 scrollimation fade-right">
 						
-							<p class="text-center"><br/><br/>Email: flische.dev@gmail.com<br/>
-							</br>Phone: 949.751.7549 <br/>
+							<!-- <p class="text-center"><br/><br/>
+								<a id="contact-link" href="mailto:flische.dev@gmail.com" target="_blank"><i class="fa fa-envelope"> </i> </a>
+								<a id="contact-link" href="tel://+194975175149" target="_blank"><i class="fa fa-phone" alt="phone"> </i> </a>
+								<a id="contact-link" href="https://www.linkedin.com/in/flische" target="_blank"><i class="fa fa-fw fa-linkedin-square" alt="LinkedIn"> </i> </a>
+								<br/>
 							</br>Location: Orange County, CA
-							</p>
+							</p> -->
 						
 						</div>
 					
 						<!--=== Contact Form ===-->
 
-						<form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left" action="php_mailer/mail_handler.php" method="post" novalidate>
+						<!-- <form id="contact-form" class="col-sm-6 col-md-offset-1 scrollimation fade-left" action="php_mailer/mail_handler.php" method="post" novalidate>
 							
 							<div class="form-group">
 								<div class="controls">
 									<input id="contact-name" name="name" class="form-control requiredField" type="text" data-error-empty="is required">
 									<label class="control-label" for="contact-name">Name</label>
 								</div>
-							</div><!-- End name input -->
+							</div>
 							
 							<div class="form-group">
 								<div class="controls">
 									<input id="contact-mail" name="email" class="form-control requiredField" type="email" data-error-empty="is required" data-error-invalid="is invalid">
 									<label class="control-label" for="contact-mail">Email</label>
 								</div>
-							</div><!-- End email input -->
+							</div>
 							
 							<div class="form-group">
 								<div class="controls">
 									<textarea id="contact-message" name="message" class="form-control requiredField" rows="2" data-error-empty="is required"></textarea>
 									<label class="control-label" for="contact-message">Message</label>
 								</div>
-							</div><!-- End textarea -->
-							
-						
+							</div>
 							<div class="buttonSubmit">
 									<button name="submit" type="submit" class="btn btn-outline-primary btn-main-color" alt="send message" data-error-message="Please fill the required fields" data-sending-message="Sending Message" 
 									data-ok-message="Your Message has been sent!"><i class="fa fa-paper-plane"></i> Send Message </button>
 							</div>
-							
 							<input type="hidden" name="submitted" id="submitted" value="true" />
-							
-						</form><!-- End contact-form -->
-						
+						</form> -->
+
 					</div>
-					
 				</div>
 			
 			</section>
